@@ -1,0 +1,48 @@
+
+
+.container {
+  /* position: absolute; */
+  height: 70vh;
+  background-image: url("../assets/fort.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h2 {
+  position: relative;
+  top: 7rem;
+  font-size: 2rem;
+  letter-spacing: .5cm;
+}
+
+.container input {
+  position: relative;
+  top: 9rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: .4rem;
+}
+
+.container button {
+  position: relative;
+  top: 12rem;
+  font-size: 1.7rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  background-color: #82e;
+  color: #fff;
+}
+
+.container button:focus {
+  background-color: rgb(103, 41, 164);
+  border: 1px solid rgb(46, 21, 72);
+}
+
